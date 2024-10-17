@@ -4,6 +4,9 @@ body {
   padding-top: 80px;
 }
 
+img {
+  width: 100%;
+}
 
 *,
 *::before,
@@ -25,6 +28,7 @@ body {
   width: 307px;
   justify-content: space-between;
   margin-right: auto;
+  transition: all .3s ease-in-out;
 }
 
 .header-nav p {
@@ -35,6 +39,28 @@ body {
   color: #ffffff;
   cursor: pointer;
 
+}
+.header-nav__link:hover {
+  color: #b0b4b9;
+  transform: translateY(1px); 
+  transition: all .3s ease-in-out;
+}
+
+
+.header-nav__link::after {
+  display: block;
+  height: 2px;
+  content: '';
+  width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #4B5563;
+  transition: all .3s ease-in-out;
+}
+
+.header-nav__link:hover::after {
+  width: 100%;
+transition: all .3s ease-in-out;
 }
 
 .header-user {
