@@ -1,0 +1,19 @@
+:root {
+--bg-template: #357EFE;
+--bg-template-second: #FFFFFF;
+--bg-price:  #FFC736;
+--bg-discount: #1ABC9C;
+--color-descr: #4E5D7C80;
+--color-text-bold: #000000;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
