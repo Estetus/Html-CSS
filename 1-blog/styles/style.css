@@ -7,6 +7,17 @@ body {
 img {
   width: 100%;
 }
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+nav {
+  margin-right: auto;
+}
 
 *,
 *::before,
@@ -31,7 +42,7 @@ img {
   transition: all .3s ease-in-out;
 }
 
-.header-nav p {
+.header-nav__link{
   margin: 0;
   font-size: 16px;
   font-weight: 400;
